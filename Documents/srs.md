@@ -1,20 +1,22 @@
-# JOB HOSTING PLATFORM APP
+# GIUP- A JOB HOSTING PLATFORM APPLICATION
 
 ## Overview
-The GIUP is a web application designed to connect employers with individuals seeking temporary/contract work. It offers a seamless experience for job posting, applicant tracking, and hiring processes.
+GIUP is a web application designed to connect employers with individuals seeking temporary/contract work in hospitality and event industry. Our platform connects businesses in this sector with skilled temporary workers, ensuring seamless operations during peak seasons, special events, and staffing fluctuations.
 
-The Name 'GIUP': in Vietnamese, giúp means help, and that is the spirit of the app, is to assist business to find staff and worker to find work.
+The Name 'GIUP': in Vietnamese, 'giúp' means help, and that is the spirit of the app, is to assist business to find staff and worker to find work.
 
 Similar to: Seek (job hosting) and Uber (operating system)
 
 
 ## Business Use Case
-Why focus on temporary work? the seasonal demand in hospitality and event industry
-
+Why focus on temporary work? 
+The seasonal demand: Focusing on temporary job search within the hospitality and event industry provides flexibility for both employers and employees, accommodating seasonal demand fluctuations and offering opportunities for skill development and career advancement. 
 
 ## Benefit
--For employer: managing cost and time (no need for long hiring process and managing employees), improve staff quality and retention (staff are screened by the app)
--For employee:  extra  income (easily find work in free time)
+### For employer:
+Managing cost and time (no need for long hiring process and managing employees), improve staff quality and retention (staff are screened by the app)
+### For employee:  
+Extra  income (easily find work in free time)
 
 
 
@@ -26,18 +28,15 @@ Why focus on temporary work? the seasonal demand in hospitality and event indust
    - Employers can securely register and authenticate their accounts.
 
 2. **Job Posting:**
-   - Employers can post temporary/contract job listings with details such as title, description, location, duration, required skills, and compensation. Through this process, the app will save the username to the database so later when check if they can edit the page, the app will compare with the username in local storage, if matches then the user will have admin/ employer access
+   - Employers can post temporary/contract job listings with details such as title, description, location, duration, required skills, and compensation. 
 
 3. **Applicant Tracking:**
-   - Tools for employers to track and manage job applicants efficiently- accept/reject applicants
+   - Admin Access for employers to track and manage job applicants efficiently- accept/reject applicants
 
 4. **Job Management:**
    - Employers can edit (open/close job status), or delete job postings
 
 ### Job Seeker Features
-can GET list of users, job listings and applicants,
-POST new users, jobs, and apply for the job,
-use PUT to update user, job status and reject/accept applicants
 
 1. **User Registration and Authentication:**
    - Job seekers can securely register and authenticate their accounts.
@@ -86,7 +85,7 @@ Sign Up -> Log In -> Apply Job -> Work if got accepted -> Rate Employer -> Get p
 4. **Libraries:**
    - Back End: Axios (fetch data), Mongoose (MongoDB object modeling tool), cors (cross origin request), jsonwebtoken (generate token for authentication)
 
-   - Front End: material UI, framer-motion (animations), react-fast-marquee (review marquee), react-router-dom (routes), react-type-animation (animated sentence), 
+   - Front End: material UI, framer-motion (animations), react-fast-marquee (review marquee), react-router-dom (routes), react-type-animation (animated sentence)
 
 
 ## Data
